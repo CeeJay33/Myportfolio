@@ -306,12 +306,12 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.128)
 
 @keyframes slide-up {
   from {
-    transform: translateX(10px);
+    transform: translateY(10px);
     opacity: 0;
   }
 
   to {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -322,7 +322,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.128)
   height: 270px;
   border-radius: 8px;
   transition: transform 0.3s ease;
-  border: 1px solid rgb(218, 209, 205);
+  border: 1px solid rgb(112, 112, 112);
   cursor: pointer;
   }
 
@@ -459,7 +459,7 @@ svg {
 
 .designers__box:hover .pop__up__selection {
   visibility: visible;
-  /* animation: slide-up 0.1s; */
+  animation: slide-up 0.6s;
 
 }
 
